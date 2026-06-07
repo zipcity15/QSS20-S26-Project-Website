@@ -8,11 +8,11 @@ export default function Hero() {
         <h1>
           Who Gets Help?<br />
           <span>Aid Allocation &amp; Conflict</span><br />
-          in Eastern DRC
+          in the DRC
         </h1>
         <p className="hero-sub">
           A data-driven investigation into whether humanitarian aid reaches the
-          most violence-affected communities in the Democratic Republic of Congo —
+          most violence-affected communities across the Democratic Republic of Congo —
           and how that relationship has shifted since the 2025 USAID freeze.
         </p>
         <div className="hero-buttons">
@@ -25,9 +25,8 @@ export default function Hero() {
         <div className="stat-grid">
           {[
             { num: '4,900+', label: 'IATI aid projects' },
-            { num: '146',    label: 'Admin-2 territories' },
+            { num: '146',    label: 'Admin-2 territories (national)' },
             { num: '5 yr',   label: 'Panel: 2021–2026' },
-            { num: '3',      label: 'Eastern provinces' },
             { num: '10,500+',label: 'Territory-months analyzed' },
             { num: '+1.5',   label: 'Under-served territories added per quarter' },
           ].map(({ num, label }) => (
