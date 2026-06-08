@@ -22,11 +22,11 @@ export default function Methods() {
     },
     {
       label: '05 → Conflict Cleaning',
-      detail: 'Spatial join UCDP events to Admin-2 polygons. Aggregate deaths and incident counts to territory × month.',
+      detail: 'Load pre-aggregated ACLED HRP data (political violence + civilian targeting). Map 25 sub-territory city names to parent Admin-2 via manual lookup. Aggregate to territory × month.',
     },
     {
       label: '06 → Conflict × Aid Merge',
-      detail: 'Build balanced 146-territory × 72-month panel. Fractional spend allocation across active project months.',
+      detail: 'Merge ACLED conflict data with IATI aid spend. Build balanced 146-territory × 72-month panel. Fractional spend allocation across active project months.',
     },
     {
       label: '07 → Aid–Violence Scatter',
