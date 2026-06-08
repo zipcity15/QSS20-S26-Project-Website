@@ -65,6 +65,9 @@ export default function Takeaways() {
           <a className="btn btn-primary" href={GITHUB_URL} target="_blank" rel="noreferrer">
             View Full Code on GitHub ↗
           </a>
+          <a className="btn btn-primary" href="/QSS_20_Final_Paper_Jack_Zipper.pdf" target="_blank" rel="noreferrer">
+            Read the Paper ↗
+          </a>
           <a className="btn btn-outline" href="#hero">Back to top ↑</a>
         </div>
       </div>
