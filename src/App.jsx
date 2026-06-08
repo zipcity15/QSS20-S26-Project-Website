@@ -29,7 +29,7 @@ function App() {
           </a>
         </p>
         <p style={{ marginTop: '0.3rem' }}>
-          Data: IATI · OCHA · UCDP/ACLED · OCHA COD Shapefiles
+          Data: IATI · OCHA · ACLED · OCHA COD Shapefiles
         </p>
       </footer>
     </>
