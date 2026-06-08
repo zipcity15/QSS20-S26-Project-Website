@@ -40,14 +40,14 @@ export default function DataSection() {
             </p>
           </div>
           <div className="card">
-            <h3>⚔️ UCDP Conflict Events</h3>
+            <h3>⚔️ ACLED Conflict Events</h3>
             <p style={{ fontSize: '0.88rem', color: 'var(--muted)', marginBottom: '0.4rem' }}>
-              Uppsala Conflict Data Program (GED) · National coverage
+              Armed Conflict Location &amp; Event Data (HRP) · National coverage
             </p>
             <p style={{ fontSize: '0.9rem' }}>
-              Geocoded violent incidents 2021–2024 with best-estimate death counts,
-              spanning all of DRC. Spatially joined to Admin-2 polygons via
-              point-in-polygon + nearest-neighbour fallback.
+              Pre-aggregated political violence and civilian targeting events by Admin-2
+              territory and month, 2021–2026. Covers all 146 DRC territories; no spatial
+              join required — ACLED provides Admin-2 labels directly.
             </p>
           </div>
         </div>
