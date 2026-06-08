@@ -12,7 +12,7 @@ export default function Results() {
           1 · Aid efficiency varies dramatically across DRC territories
         </h3>
         <p>
-          Mapping log(aid spend) − log(deaths) across all 146 national Admin-2
+          Mapping log(aid spend) − log(deaths) across all 164 national Admin-2
           territories reveals a stark spatial pattern: territories with the most intense
           conflict (dark crimson) cluster along the north-eastern border, while higher
           aid-per-death ratios (light yellow) concentrate in more accessible urban
@@ -60,10 +60,10 @@ export default function Results() {
         <p>
           Across all national Admin-2 territories, two-way fixed-effects regressions
           show that a 1-unit increase in log(deaths) at lag 1, 3, and 6 months is
-          associated with a <strong>decrease</strong> in log(aid spend) — all
-          coefficients significant at p &lt; 0.05. Aid does not rapidly re-allocate
-          toward emerging hotspots; if anything, sudden violence disrupts existing
-          project activity.{' '}
+          associated with a <strong>decrease</strong> in log(aid spend) — none of the
+          coefficients are statistically significant (p = 0.24, 0.56, 0.26). Aid does
+          not rapidly re-allocate toward emerging hotspots; if anything, the negative
+          point estimates suggest violence may disrupt existing project activity.{' '}
           <em style={{ color: 'var(--muted)', fontSize: '0.88rem' }}>National scope.</em>
         </p>
         <Figure
@@ -76,18 +76,18 @@ export default function Results() {
           4 · The USAID freeze sharply accelerated under-service nationally
         </h3>
         <p>
-          Across all DRC territories, the count of bottom-quartile (under-served)
-          territories was statistically stable at ~27 per quarter through Q4 2024.
-          After the Trump administration's January 2025 USAID freeze, the count surged
-          to 58 by Q4 2026 — a <strong>+1.0 percentage point per quarter</strong>{' '}
-          post-break slope (p &lt; 0.001), versus a flat −0.01 ppt/quarter pre-break
-          trend (p = 0.92).{' '}
+          Across all DRC territories, the share of under-served territories was
+          statistically stable (~25%) through Q4 2024 — pre-break slope of
+          −0.085%/quarter (p = 0.23). After the Trump administration's January 2025
+          USAID freeze, the share surged to 44% by Q4 2026 — a{' '}
+          <strong>+1.0 percentage point per quarter</strong> post-break slope (p &lt; 0.001),
+          nearly doubling the under-served share in under two years.{' '}
           <em style={{ color: 'var(--muted)', fontSize: '0.88rem' }}>National scope.</em>
         </p>
 
         <div className="callout">
-          Mann-Kendall test: τ = 0.535, p = 0.0004 — strong monotonic increase in
-          under-served territory count over the full 2021–2026 window.
+          Mann-Kendall test: τ = 0.497, p = 0.0009 — strong monotonic increase in
+          under-served territory share over the full 2021–2026 window.
         </div>
 
         <Figure

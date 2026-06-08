@@ -46,7 +46,7 @@ export default function DataSection() {
             </p>
             <p style={{ fontSize: '0.9rem' }}>
               Pre-aggregated political violence and civilian targeting events by Admin-2
-              territory and month, 2021–2026. Covers all 146 DRC territories; no spatial
+              territory and month, 2021–2026. Covers all 164 DRC territories; no spatial
               join required — ACLED provides Admin-2 labels directly.
             </p>
           </div>
