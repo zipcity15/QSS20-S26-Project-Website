@@ -20,6 +20,9 @@ export default function Hero() {
           <a className="btn btn-outline" href={GITHUB_URL} target="_blank" rel="noreferrer">
             GitHub Repo ↗
           </a>
+          <a className="btn btn-outline" href="/QSS_20_Final_Paper_Jack_Zipper.pdf" target="_blank" rel="noreferrer">
+            Read the Paper ↗
+          </a>
         </div>
 
         <div className="stat-grid">
